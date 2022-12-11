@@ -23,12 +23,12 @@ namespace _03._Santas_Holiday
                         nightsPrice = nightCount * 25.00;
                         nightsPrice = nightsPrice - nightsPrice * 0.30;
                     }
-                    if (nightCount >= 10 && nightsPrice <= 15)
+                    else if (nightCount >= 10 && nightCount <= 15)
                     {
                         nightsPrice = nightCount * 25.00;
                         nightsPrice = nightsPrice - nightsPrice * 0.35;
                     }
-                    if (nightCount > 15)
+                    else if (nightCount > 15)
                     {
                         nightsPrice = nightCount * 25.00;
                         nightsPrice = nightsPrice - nightsPrice * 0.50;
@@ -40,12 +40,12 @@ namespace _03._Santas_Holiday
                         nightsPrice = nightCount * 35.00;
                         nightsPrice = nightsPrice - nightsPrice * 0.10;
                     }
-                    if (nightCount >= 10 && nightsPrice <= 15)
+                    else if (nightCount >= 10 && nightCount <= 15)
                     {
                         nightsPrice = nightCount * 35.00;
                         nightsPrice = nightsPrice - nightsPrice * 0.15;
                     }
-                    if (nightCount > 15)
+                    else if (nightCount > 15)
                     {
                         nightsPrice = nightCount * 35.00;
                         nightsPrice = nightsPrice - nightsPrice * 0.20;
